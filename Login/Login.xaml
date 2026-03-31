@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.Login"
+             Title="Login">
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label 
+            Text="Sistema de login"
+            HorizontalOptions="Center" />
+        
+        <Label Text="Usuario: "/>
+        <Entry x:Name="txt_usuario"/>
+
+        <Label Text="Senha: "/>
+        <Entry x:Name="txt_senha"/>
+
+        <Button Text="Entrar" 
+                Clicked="Button_Clicked" 
+                HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
