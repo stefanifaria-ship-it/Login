@@ -24,7 +24,7 @@
 
             MainPage = new Login();
         }
-        //metodos são declarados dentro da classe
+        
         protected override Window CreateWindow(IActivationState? activationState)
         {
             var window = base.CreateWindow(activationState);
